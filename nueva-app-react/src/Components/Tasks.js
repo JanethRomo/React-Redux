@@ -1,7 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { func } from 'prop-types';
-import { bindActionCreators } from '../../../../../AppData/Local/Microsoft/TypeScript/3.5/node_modules/redux';
 import {deleteTask} from '../Reducers/Actions';
 
 class Task extends React.Component{
